@@ -1,0 +1,8 @@
+##ubuntu上clion+cubemx调试stm32程序
+
+其实在调试的时候是用的openocd+jlink
+
+按照网上教程安装好所有软件后，
+如果一直提示连接不上芯片。
+可以试试在win下建一个stm32工程，调试下，连接上jlink。之后再在ubuntu上调试就好了，
+应该是win上ubuntu虚拟机usb使用的bug，不过也可能是apt安装的不对，我之后又通过源码安装了一次
